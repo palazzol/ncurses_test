@@ -1,5 +1,7 @@
 #include <ncurses.h>
+
 int main() {
+    curses_trace(TRACE_TPUTS | TRACE_DATABASE | TRACE_MOVE | TRACE_CHARPUT);
     initscr();
     cbreak();
     noecho();
@@ -12,6 +14,7 @@ int main() {
     clear();
     mvprintw(row, col, msg);
     refresh();
+    getch();
     endwin();
     return 0;
 }
