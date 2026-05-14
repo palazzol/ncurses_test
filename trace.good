@@ -1,0 +1,124 @@
+TRACING NCURSES version 6.3.20211021 (tracelevel=0x81a)
+read terminfo /usr/share/terminfo/t/tvi910
+READ termtype header @0
+TERMTYPE name_size=27, bool=38/44, num=5/39 str=135/414(186)
+get Numbers[0]=80
+get Numbers[1]=8
+get Numbers[2]=24
+get Numbers[3]=-1
+get Numbers[4]=1
+Strings[0] = "\eI"
+Strings[1] = "\^G"
+Strings[2] = "\r"
+Strings[5] = "\^Z"
+Strings[6] = "\eT"
+Strings[7] = "\eY"
+Strings[8] = "\e]%p1%' '%+%c"
+Strings[10] = "\e=%p1%' '%+%c%p2%' '%+%c"
+Strings[11] = "\n"
+Strings[12] = "\e=\^A\^A"
+Strings[14] = "\b"
+Strings[17] = "\^L"
+Strings[19] = "\^K"
+Strings[34] = "\eG4"
+Strings[35] = "\eG4"
+Strings[36] = "\eG8"
+Strings[39] = "\eG0"
+Strings[43] = "\eG0"
+Strings[44] = "\eG0"
+Strings[51] = "/usr/share/tabset/stdcrt"
+Strings[55] = "\b"
+Strings[61] = "\n"
+Strings[65] = "\^AI\r"
+Strings[66] = "\^A@\r"
+Strings[68] = "\^AA\r"
+Strings[69] = "\^AB\r"
+Strings[70] = "\^AC\r"
+Strings[71] = "\^AD\r"
+Strings[72] = "\^AE\r"
+Strings[73] = "\^AF\r"
+Strings[74] = "\^AG\r"
+Strings[75] = "\^AH\r"
+Strings[76] = "\^^"
+Strings[79] = "\b"
+Strings[83] = "\^L"
+Strings[87] = "\^K"
+Strings[127] = "\e[%p1%' '%+%c"
+Strings[129] = "\n"
+Strings[134] = "\t"
+READ extended_header @544
+...done reading terminfo bool 38 num 5 str 135
+normal: num_Booleans:44
+padding will be used
+char_padding 1 msecs
+CostOf carriage_return 1 "\r"
+CostOf cursor_home 4 "\e=\^A\^A"
+CostOf cursor_to_ll 1000000 (null)
+CostOf cursor_left 1 "\b"
+CostOf cursor_right 1 "\^L"
+CostOf cursor_down 1 "\n"
+CostOf cursor_up 1 "\^K"
+CostOf enter_insert_mode 1000000 (null)
+CostOf exit_insert_mode 1000000 (null)
+CostOf TIPARM_2(SP_PARM->_address_cursor, 23, 23) 4 "\e=77"
+CostOf TIPARM_1(parm_left_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(parm_right_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(parm_down_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(parm_up_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(column_address, 23) 3 "\e]7"
+CostOf TIPARM_1(row_address, 23) 3 "\e[7"
+NormalizedCost clr_eos 2 "\eY"
+NormalizedCost clr_eol 2 "\eT"
+NormalizedCost clr_bol 1000000 (null)
+NormalizedCost delete_character 1000000 (null)
+NormalizedCost insert_character 1000000 (null)
+NormalizedCost TIPARM_1(parm_dch, 23) 1000000 (null)
+NormalizedCost TIPARM_1(parm_ich, 23) 1000000 (null)
+NormalizedCost TIPARM_1(erase_chars, 23) 1000000 (null)
+NormalizedCost TIPARM_2(repeat_char, ' ', 23) 1000000 (null)
+NormalizedCost TIPARM_2(SP_PARM->_address_cursor, 23, 23) 4 "\e=77"
+NormalizedCost TIPARM_1(column_address, 23) 3 "\e]7"
+NormalizedCost TIPARM_1(parm_right_cursor, 23) 1000000 (null)
+tputs(exit_attribute_mode = "\eG0", 1, _nc_outch) called
+tputs(clear_screen = "\^Z", 1, _nc_outch) called
+GoTo(0xf7d4b0, 17, 31) from (0, 0)
+mvcur tactic 0
+tputs(mvcur = "\e=1?", 1, _nc_outch) called
+ofd:1 inuse:8 buffer:0xf80600
+flushing 8/5 bytes
+PutRange(0xf7d4b0, 0xf9d180, 0xf8b160, 17, 31, 43)
+EmitRange 13:{"Hello, World!"}
+PutAttrChar({{ 'H' = 0110 }}) at (17, 31)
+PUTC 0x48
+PutAttrChar({{ 'e' = 0145 }}) at (17, 32)
+PUTC 0x65
+PutAttrChar({{ 'l' = 0154 }}) at (17, 33)
+PUTC 0x6c
+PutAttrChar({{ 'l' = 0154 }}) at (17, 34)
+PUTC 0x6c
+PutAttrChar({{ 'o' = 0157 }}) at (17, 35)
+PUTC 0x6f
+PutAttrChar({{ ',' = 054 }}) at (17, 36)
+PUTC 0x2c
+PutAttrChar({{ ' ' = 040 }}) at (17, 37)
+PUTC 0x20
+PutAttrChar({{ 'W' = 0127 }}) at (17, 38)
+PUTC 0x57
+PutAttrChar({{ 'o' = 0157 }}) at (17, 39)
+PUTC 0x6f
+PutAttrChar({{ 'r' = 0162 }}) at (17, 40)
+PUTC 0x72
+PutAttrChar({{ 'l' = 0154 }}) at (17, 41)
+PUTC 0x6c
+PutAttrChar({{ 'd' = 0144 }}) at (17, 42)
+PUTC 0x64
+PutAttrChar({{ '!' = 041 }}) at (17, 43)
+PUTC 0x21
+GoTo(0xf7d4b0, 17, 44) from (17, 44)
+ofd:1 inuse:13 buffer:0xf80600
+flushing 13/31 bytes
+ofd:1 inuse:0 buffer:0xf80600
+mvcur tactic 0
+tputs(mvcur = "\e=A ", 1, _nc_outch) called
+ofd:1 inuse:5 buffer:0xf80600
+flushing 5/36 bytes

@@ -1,0 +1,5363 @@
+TRACING NCURSES version 6.3.20211021 (tracelevel=0x81a)
+read terminfo /usr/share/terminfo/t/tvi910
+READ termtype header @0
+TERMTYPE name_size=27, bool=38/44, num=5/39 str=135/414(186)
+get Numbers[0]=80
+get Numbers[1]=8
+get Numbers[2]=24
+get Numbers[3]=-1
+get Numbers[4]=1
+Strings[0] = "\eI"
+Strings[1] = "\^G"
+Strings[2] = "\r"
+Strings[5] = "\^Z"
+Strings[6] = "\eT"
+Strings[7] = "\eY"
+Strings[8] = "\e]%p1%' '%+%c"
+Strings[10] = "\e=%p1%' '%+%c%p2%' '%+%c"
+Strings[11] = "\n"
+Strings[12] = "\e=\^A\^A"
+Strings[14] = "\b"
+Strings[17] = "\^L"
+Strings[19] = "\^K"
+Strings[34] = "\eG4"
+Strings[35] = "\eG4"
+Strings[36] = "\eG8"
+Strings[39] = "\eG0"
+Strings[43] = "\eG0"
+Strings[44] = "\eG0"
+Strings[51] = "/usr/share/tabset/stdcrt"
+Strings[55] = "\b"
+Strings[61] = "\n"
+Strings[65] = "\^AI\r"
+Strings[66] = "\^A@\r"
+Strings[68] = "\^AA\r"
+Strings[69] = "\^AB\r"
+Strings[70] = "\^AC\r"
+Strings[71] = "\^AD\r"
+Strings[72] = "\^AE\r"
+Strings[73] = "\^AF\r"
+Strings[74] = "\^AG\r"
+Strings[75] = "\^AH\r"
+Strings[76] = "\^^"
+Strings[79] = "\b"
+Strings[83] = "\^L"
+Strings[87] = "\^K"
+Strings[127] = "\e[%p1%' '%+%c"
+Strings[129] = "\n"
+Strings[134] = "\t"
+READ extended_header @544
+...done reading terminfo bool 38 num 5 str 135
+normal: num_Booleans:44
+padding will be used
+decoding COLORFGBG 15;0
+decoded fg=15, bg=0
+char_padding 1 msecs
+CostOf carriage_return 1 "\r"
+CostOf cursor_home 4 "\e=\^A\^A"
+CostOf cursor_to_ll 1000000 (null)
+CostOf cursor_left 1 "\b"
+CostOf cursor_right 1 "\^L"
+CostOf cursor_down 1 "\n"
+CostOf cursor_up 1 "\^K"
+CostOf enter_insert_mode 1000000 (null)
+CostOf exit_insert_mode 1000000 (null)
+CostOf TIPARM_2(SP_PARM->_address_cursor, 23, 23) 4 "\e=77"
+CostOf TIPARM_1(parm_left_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(parm_right_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(parm_down_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(parm_up_cursor, 23) 1000000 (null)
+CostOf TIPARM_1(column_address, 23) 3 "\e]7"
+CostOf TIPARM_1(row_address, 23) 3 "\e[7"
+NormalizedCost clr_eos 1000000 (null)
+NormalizedCost clr_eol 1000000 (null)
+NormalizedCost clr_bol 1000000 (null)
+NormalizedCost delete_character 1000000 (null)
+NormalizedCost insert_character 1000000 (null)
+NormalizedCost TIPARM_1(parm_dch, 23) 1000000 (null)
+NormalizedCost TIPARM_1(parm_ich, 23) 1000000 (null)
+NormalizedCost TIPARM_1(erase_chars, 23) 1000000 (null)
+NormalizedCost TIPARM_2(repeat_char, ' ', 23) 1000000 (null)
+NormalizedCost TIPARM_2(SP_PARM->_address_cursor, 23, 23) 4 "\e=77"
+NormalizedCost TIPARM_1(column_address, 23) 3 "\e]7"
+NormalizedCost TIPARM_1(parm_right_cursor, 23) 1000000 (null)
+tputs(exit_attribute_mode = "\eG0", 1, _nc_outch) called
+tputs(clear_screen = "\^Z", 1, _nc_outch) called
+GoTo(0xfd14b0, 0, 0) from (0, 0)
+ofd:1 inuse:4 buffer:0xfd4600
+flushing 4/1 bytes
+PutAttrChar({{ ' ' = 040 }}) at (0, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (0, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 1, 0) from (1, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/153 bytes
+PutAttrChar({{ ' ' = 040 }}) at (1, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (1, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 2, 0) from (2, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/305 bytes
+PutAttrChar({{ ' ' = 040 }}) at (2, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (2, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 3, 0) from (3, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/457 bytes
+PutAttrChar({{ ' ' = 040 }}) at (3, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (3, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 4, 0) from (4, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/609 bytes
+PutAttrChar({{ ' ' = 040 }}) at (4, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (4, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 5, 0) from (5, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/761 bytes
+PutAttrChar({{ ' ' = 040 }}) at (5, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (5, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 6, 0) from (6, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/913 bytes
+PutAttrChar({{ ' ' = 040 }}) at (6, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (6, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 7, 0) from (7, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/1065 bytes
+PutAttrChar({{ ' ' = 040 }}) at (7, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (7, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 8, 0) from (8, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/1217 bytes
+PutAttrChar({{ ' ' = 040 }}) at (8, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (8, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 9, 0) from (9, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/1369 bytes
+PutAttrChar({{ ' ' = 040 }}) at (9, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (9, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 10, 0) from (10, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/1521 bytes
+PutAttrChar({{ ' ' = 040 }}) at (10, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (10, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 11, 0) from (11, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/1673 bytes
+PutAttrChar({{ ' ' = 040 }}) at (11, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (11, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 12, 0) from (12, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/1825 bytes
+PutAttrChar({{ ' ' = 040 }}) at (12, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (12, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 13, 0) from (13, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/1977 bytes
+PutAttrChar({{ ' ' = 040 }}) at (13, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (13, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 14, 0) from (14, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/2129 bytes
+PutAttrChar({{ ' ' = 040 }}) at (14, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (14, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 15, 0) from (15, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/2281 bytes
+PutAttrChar({{ ' ' = 040 }}) at (15, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (15, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 16, 0) from (16, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/2433 bytes
+PutAttrChar({{ ' ' = 040 }}) at (16, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (16, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 17, 0) from (17, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/2585 bytes
+PutAttrChar({{ ' ' = 040 }}) at (17, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 30)
+PUTC 0x20
+PutAttrChar({{ 'H' = 0110 }}) at (17, 31)
+PUTC 0x48
+PutAttrChar({{ 'e' = 0145 }}) at (17, 32)
+PUTC 0x65
+PutAttrChar({{ 'l' = 0154 }}) at (17, 33)
+PUTC 0x6c
+PutAttrChar({{ 'l' = 0154 }}) at (17, 34)
+PUTC 0x6c
+PutAttrChar({{ 'o' = 0157 }}) at (17, 35)
+PUTC 0x6f
+PutAttrChar({{ ',' = 054 }}) at (17, 36)
+PUTC 0x2c
+PutAttrChar({{ ' ' = 040 }}) at (17, 37)
+PUTC 0x20
+PutAttrChar({{ 'W' = 0127 }}) at (17, 38)
+PUTC 0x57
+PutAttrChar({{ 'o' = 0157 }}) at (17, 39)
+PUTC 0x6f
+PutAttrChar({{ 'r' = 0162 }}) at (17, 40)
+PUTC 0x72
+PutAttrChar({{ 'l' = 0154 }}) at (17, 41)
+PUTC 0x6c
+PutAttrChar({{ 'd' = 0144 }}) at (17, 42)
+PUTC 0x64
+PutAttrChar({{ '!' = 041 }}) at (17, 43)
+PUTC 0x21
+PutAttrChar({{ ' ' = 040 }}) at (17, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (17, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 18, 0) from (18, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/2737 bytes
+PutAttrChar({{ ' ' = 040 }}) at (18, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (18, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 19, 0) from (19, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/2889 bytes
+PutAttrChar({{ ' ' = 040 }}) at (19, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (19, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 20, 0) from (20, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/3041 bytes
+PutAttrChar({{ ' ' = 040 }}) at (20, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (20, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 21, 0) from (21, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/3193 bytes
+PutAttrChar({{ ' ' = 040 }}) at (21, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (21, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 22, 0) from (22, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/3345 bytes
+PutAttrChar({{ ' ' = 040 }}) at (22, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (22, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 23, 0) from (23, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/3497 bytes
+PutAttrChar({{ ' ' = 040 }}) at (23, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (23, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 24, 0) from (24, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/3649 bytes
+PutAttrChar({{ ' ' = 040 }}) at (24, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (24, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 25, 0) from (25, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/3801 bytes
+PutAttrChar({{ ' ' = 040 }}) at (25, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (25, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 26, 0) from (26, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/3953 bytes
+PutAttrChar({{ ' ' = 040 }}) at (26, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (26, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 27, 0) from (27, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/4105 bytes
+PutAttrChar({{ ' ' = 040 }}) at (27, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (27, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 28, 0) from (28, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/4257 bytes
+PutAttrChar({{ ' ' = 040 }}) at (28, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (28, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 29, 0) from (29, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/4409 bytes
+PutAttrChar({{ ' ' = 040 }}) at (29, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (29, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 30, 0) from (30, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/4561 bytes
+PutAttrChar({{ ' ' = 040 }}) at (30, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (30, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 31, 0) from (31, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/4713 bytes
+PutAttrChar({{ ' ' = 040 }}) at (31, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (31, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 32, 0) from (32, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/4865 bytes
+PutAttrChar({{ ' ' = 040 }}) at (32, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 74)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (32, 75)
+PUTC 0x20
+GoTo(0xfd14b0, 33, 0) from (33, 0)
+ofd:1 inuse:76 buffer:0xfd4600
+flushing 76/5017 bytes
+PutAttrChar({{ ' ' = 040 }}) at (33, 0)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 1)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 2)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 3)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 4)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 5)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 6)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 7)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 8)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 9)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 10)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 11)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 12)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 13)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 14)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 15)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 16)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 17)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 18)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 19)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 20)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 21)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 22)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 23)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 24)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 25)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 26)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 27)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 28)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 29)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 30)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 31)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 32)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 33)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 34)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 35)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 36)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 37)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 38)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 39)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 40)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 41)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 42)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 43)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 44)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 45)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 46)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 47)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 48)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 49)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 50)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 51)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 52)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 53)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 54)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 55)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 56)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 57)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 58)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 59)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 60)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 61)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 62)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 63)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 64)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 65)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 66)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 67)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 68)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 69)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 70)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 71)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 72)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 73)
+PUTC 0x20
+PutAttrChar({{ ' ' = 040 }}) at (33, 74)
+PUTC 0x20
+GoTo(0xfd14b0, 17, 44) from (33, 75)
+mvcur tactic 0
+tputs(mvcur = "\e=1L", 1, _nc_outch) called
+ofd:1 inuse:79 buffer:0xfd4600
+flushing 79/5171 bytes
+ofd:1 inuse:0 buffer:0xfd4600
+mvcur tactic 0
+tputs(mvcur = "\e=A ", 1, _nc_outch) called
+ofd:1 inuse:5 buffer:0xfd4600
+flushing 5/5176 bytes
